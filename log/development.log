@@ -1,0 +1,82 @@
+Started GET "/" for ::1 at 2023-04-22 11:57:02 -0400
+Processing by PagesController#homepage as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5497)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/homepage, application/homepage with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/albertosaenz/Documents/rails-test-api/test-app/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/actiontext-7.0.4.3/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/actionmailbox-7.0.4.3/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/show
+               layouts/mailer
+               layouts/turbo_rails/frame
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/sources/new):
+  
+app/controllers/pages_controller.rb:3:in `homepage'
+Started GET "/" for ::1 at 2023-04-22 12:01:51 -0400
+  
+SyntaxError (/Users/albertosaenz/Documents/rails-test-api/test-app/app/controllers/pages_controller.rb:3: syntax error, unexpected string literal, expecting `end'
+        render :text "THIS IS TEXT COMING FROM A RA...
+                     ^
+):
+  
+app/controllers/pages_controller.rb:3: syntax error, unexpected string literal, expecting `end'
+app/controllers/pages_controller.rb:3: syntax error, unexpected string literal, expecting `end'
+app/controllers/pages_controller.rb:3: syntax error, unexpected string literal, expecting `end'
+Started GET "/" for ::1 at 2023-04-22 12:02:34 -0400
+Processing by PagesController#homepage as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3940)
+
+
+  
+ActionView::MissingTemplate (Missing template pages/homepage, application/homepage with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/albertosaenz/Documents/rails-test-api/test-app/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/actiontext-7.0.4.3/app/views"
+  * "/Users/albertosaenz/.gem/ruby/3.1.3/gems/actionmailbox-7.0.4.3/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/show
+               layouts/mailer
+               layouts/turbo_rails/frame
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/sources/new):
+  
+app/controllers/pages_controller.rb:3:in `homepage'
+Started GET "/" for ::1 at 2023-04-22 12:06:38 -0400
+Processing by PagesController#homepage as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2453)
+
+
+Started GET "/" for ::1 at 2023-04-22 21:29:37 -0400
+Processing by PagesController#homepage as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 3ms (Views: 0.8ms | Allocations: 233)
+
+
+Started GET "/" for ::1 at 2023-04-22 21:29:37 -0400
+Processing by PagesController#homepage as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 182)
+
+
+Started GET "/" for ::1 at 2023-04-23 12:58:50 -0400
+Processing by PagesController#homepage as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2385)
+
+
